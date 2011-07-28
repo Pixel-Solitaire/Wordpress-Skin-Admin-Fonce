@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'CartoGothic';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Book-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Book-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Book-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Book-webfont.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CartoGothic';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Italic-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Italic-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Italic-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Italic-webfont.svg#CartoGothicStdItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CartoGothic';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Bold-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../-content/plugins/pixel-admin/font-face/CartoGothicStd-Bold-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Bold-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-Bold-webfont.svg#CartoGothicStdBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CartoGothic';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-BoldItalic-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-BoldItalic-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-BoldItalic-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/CartoGothicStd-BoldItalic-webfont.svg#CartoGothicStdBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Puritan';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Regular-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Regular-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Regular-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Regular-webfont.svg#Puritan20Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Puritan';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Italic-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Italic-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Italic-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Italic-webfont.svg#Puritan20Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Puritan';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold-webfont.svg#Puritan20Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Puritan';
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold_Italic-webfont.eot');
+    src: url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold_Italic-webfont.woff') format('woff'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold_Italic-webfont.ttf') format('truetype'),
+         url('/../wp-content/plugins/pixel-admin/font-face/Puritan_Bold_Italic-webfont.svg#Puritan20BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+/*
+Plugin Name: Pixel Solitaire - Skin Admin Classic Foncé
+Plugin URI: http://pixel-solitaire.com/telechargements/skin-admin-classic-fonce/
+Description: Plugin de modification des styles du système d'administration de Wordpress.
+Author: le Pixel Solitaire
+Version: 1.2
+Author URI: http://pixel-solitaire.com/
+*/
+body #wphead,
+body #footer {
+    background: #1E255C url("/../wp-content/plugins/pixel-admin/classic-fonce/background-top-bottom.gif") left bottom repeat-x !important;
+    border-bottom: 1px solid #1E255C !important;
+}
+body #footer {
+    border-bottom: none !important;
+    border-top: 1px solid #1E255C !important;
+}
+body #footer p,
+body #footer a,
+body #footer p a {
+	font-size: 14px !important;
+}
+body #header-logo {
+    background: transparent url("/../wp-content/plugins/pixel-admin/logo.png") center center no-repeat !important;
+}
+body .wrap h2,
+body #wphead h1 a,
+body #wphead h1.long-title {
+    font: 18px CartoGothic,"Times New Roman","Bitstream Charter",Times,serif !important;
+    letter-spacing:1px;
+    font-weight: bold !important;
+}
+body .wrap h2 {
+    font-size: 28px !important;
+    font-style: italic !important;
+}
+body .widefat thead tr th, 
+body .widefat tfoot tr th, 
+body .widefat thead tr th a, 
+body .widefat tfoot tr th a, 
+body #user_info p,
+body #footer p,
+body #user_info a:link,
+body #user_info a:visited,
+body #footer a:link,
+body #footer a:visited,
+body .ui-sortable .postbox h3,
+body #adminmenu a.menu-top,
+body #screen-meta-links a.show-settings  {
+   font-family: Puritan,Verdana,Arial,sans-serif !important;
+   color: #F4F5FA !important;
+}
+body .widefat thead tr th, 
+body .widefat tfoot tr th, 
+body .widefat thead tr th a, 
+body .widefat tfoot tr th a, 
+body #wphead h1 a,
+body #wphead h1.long-title,
+body #user_info a:link,
+body #user_info a:visited,
+body #footer a:link,
+body #footer a:visited ,
+body .ui-sortable .postbox h3,
+body #adminmenu a.menu-top,
+body #screen-meta-links a.show-settings,
+body #poststuff #editor-toolbar .active,
+body #post-status-info,
+#dashboard-widgets h3 a  {
+    text-shadow: none !important;
+   color: #fff !important;
+}
+body #footer-upgrade {
+   display: none !important;
+}
+body .widget .widget-top,
+body .postbox h3,
+body .stuffbox h3, 
+body #screen-meta .screen-meta-toggle,
+body input.button-primary, 
+body button.button-primary, 
+body a.button-primary,
+body #poststuff #editor-toolbar .active,
+body #post-status-info,
+body #quicktags {
+    background: #1E255C url("/../wp-content/plugins/pixel-admin/classic-fonce/background-barre-dashboard.gif") left bottom repeat-x !important;
+    text-shadow: none !important;
+	font-weight: normal !important;
+    letter-spacing:1px;
+	font-size: 14px !important;
+	border-color: #1E255C !important;
+}
+body input.button-primary:hover, button.button-primary:hover, a.button-primary:hover {
+    background: #1E255C url("/../wp-content/plugins/pixel-admin/classic-fonce/background-barre-dashboard.gif") 0 -12px repeat-x !important;
+}
+body .widefat thead tr th, 
+body .widefat tfoot tr th, 
+body .widefat thead tr th a, 
+body .widefat tfoot tr th a, 
+body #screen-meta .screen-meta-toggle,
+body #screen-meta a.show-settings,
+body #user_info  p {
+	font-size: 14px !important;
+}
+body .widefat thead tr th, 
+body .widefat tfoot tr th, 
+body .widefat thead tr th a, 
+body .widefat tfoot tr th a {
+	font-weight: normal !important;
+}
+body .widefat thead tr th, 
+body .widefat tfoot tr th, 
+body #adminmenu a.menu-top,
+body .wp_themeSkin tr.mceFirst td.mceToolbar {
+     background: #1E255C url("/../wp-content/plugins/pixel-admin/classic-fonce/background-barre-menu.gif") left bottom repeat-x !important;
+}
+body #adminmenu *, 
+body .widget, 
+body #widget-list .widget-top, 
+body .postbox, #titlediv, 
+body #poststuff .postarea, 
+body .stuffbox,
+body .wp_themeSkin tr.mceFirst td.mceToolbar,
+body #editorcontainer, 
+body #post-status-info, 
+body #titlediv #title, 
+body .editwidget .widget-inside,
+body #quicktags {
+    border-color: #1E255C !important;
+}
+#adminmenu .wp-has-submenu:hover .wp-menu-toggle, 
+#adminmenu .wp-menu-open .wp-menu-toggle,
+body.press-this .postbox:hover .handlediv, 
+body.press-this .stuffbox:hover .handlediv, 
+.meta-box-sortables .postbox:hover .handlediv {
+   color: #fff !important;
+    background: transparent url("/../wp-content/plugins/pixel-admin/fleches/ico-fleche-bas-menu.gif") left center no-repeat !important;
+	cursor: pointer;
+}
+body #adminmenu .wp-menu-toggle,
+body .postbox .handlediv {
+    width: 19px !important;
+}
+body #screen-meta a.show-settings, 
+body .toggle-arrow,
+body #favorite-toggle {
+    background-image: url("/../wp-content/plugins/pixel-admin/fleches/ico-fleche-bas-haut.gif") !important;
+}
+body #favorite-toggle {
+    background-position: left top !important;
+	background-repeat: no-repeat !important;
+}
+body .sorting-indicator {
+    background-image: url("/../wp-content/plugins/pixel-admin/fleches/ico-tite-fleches.gif") !important;
+}
+body .sorting-indicator:hover {
+	cursor: pointer !important;
+}
+body #favorite-first,
+body #favorite-inside, 
+body input[type="file"], 
+body input[type="button"], 
+body input[type="reset"],
+body #save-post,
+body #post-preview,
+body .button, 
+body .submit input, 
+body .button-secondary {
+    background: #D6DAFE url("/../wp-content/plugins/pixel-admin/classic-fonce/background-bouton-pale.gif") left center repeat-x !important;
+    border-color: #D6DAFE;
+}
+body #favorite-first:hover,
+body #favorite-inside:hover, 
+body input[type="file"]:hover, 
+body input[type="button"]:hover, 
+body input[type="reset"]:hover,
+body #save-post:hover,
+body #post-preview:hover,
+body .button:hover, 
+body .submit input:hover, 
+body .button-secondary:hover {
+    border-color: #1E255C;
+}
+body #favorite-inside{
+    background: #F3F6FE url("/../wp-content/plugins/pixel-admin/classic-fonce/background-bouton-pale-s.gif") left top repeat-x !important;
+    border-color: #D6DAFE;
+}
