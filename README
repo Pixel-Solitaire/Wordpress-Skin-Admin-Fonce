@@ -1,0 +1,37 @@
+'''Plugin Name:''' ''Pixel Solitaire'' - Skin Admin Classic Foncé
+'''Plugin URI:''' http://pixel-solitaire.com/telechargements/skin-admin-classic-fonce/
+'''Description:''' Plugin to modify the styles of the ''Wordpress'' administration pages.
+'''Author:''' le ''Pixel Solitaire''
+'''Version:''' 1.2
+'''Author URI:''' http://pixel-solitaire.com/
+
+<code>================================
+=========== About : ============
+================================</code>
+
+'''Skin Admin Classic Foncé''' is a real basic skin for the ''Wordpress'' administrative section. It was developped to give a good start point for projects that required modification to the look of these pages like plugins creation or complex theme customization.
+
+<code>================================
+========= To Install : =========
+================================</code>
+
+'''1.''' Extract the folder "<code>pixel-admin</code>" from the ZIP file.
+'''2.''' Upload the folder (and its content...) you just extracted to your "<code>wp-content/plugins/</code>" directory.
+'''3.''' Log to your admin, go to the plugin panel and activate '''''"Pixel Solitaire - Skin Admin Classic Foncé"'''''.
+
+<code>================================
+============ To Do : ===========
+================================</code>
+'''1.''' Check for full compatibility with ''Wordpress'' 3.2
+'''2.''' Check for potential conflicts with other plugins/themes (''footer notes'') 
+'''3.''' Re-ordering the CSS rules in a more efficient/logical way
+'''4.''' Adding a settings page with options?
+'''5.''' You name it... ;-)
+
+
+
+<code>Les nouvelles du Pixel Solitaire
+================================
+== http://pixel-solitaire.com ==
+================================</code>
+
