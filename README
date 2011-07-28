@@ -22,7 +22,7 @@ creation or more complex admin customizations.
 1. Extract the folder "pixel-admin" from the ZIP file.
 2. Upload the folder (and its content...) you just
    extracted to your "wp-content/plugins/" directory.
-3. Log to your admin, go to the plugin panel and
+3. Log to your admin, go to the plugins panel and
    activate "Pixel Solitaire - Skin Admin Classic Foncé".
 
 ================================
